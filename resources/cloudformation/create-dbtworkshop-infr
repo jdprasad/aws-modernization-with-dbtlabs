@@ -265,7 +265,7 @@ Resources:
     DependsOn: EC2Role
     Properties:
       ClusterType: single-node
-      NodeType: dc2.large
+      NodeType: ra3.xlplus
       DBName: dbtworkshop
       MasterUsername: dbtadmin
       MasterUserPassword: Dbtadmin108!
